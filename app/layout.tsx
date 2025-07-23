@@ -23,35 +23,35 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Sadegh Tabassi",
-    template: "%s | Sadegh Tabassi",
+    default: 'Sadegh Tabassi',
+    template: '%s | Sadegh Tabassi',
   },
   description:
-    "Sadegh Tabassi's personal website. Data scientist, machine learning engineer, and full-stack developer.",
+    'Sadegh Tabassi\'s personal website. Data scientist, machine learning engineer, and full-stack developer.',
   keywords: [
-    "Sadegh Tabassi",
+    'Sadegh Tabassi',
     'data scientist',
     'machine learning',
     'full-stack developer',
     'engineer',
     'portfolio',
   ],
-  authors: [{ name: "Sadegh Tabassi" }],
-  creator: "Sadegh Tabassi",
+  authors: [{ name: 'Sadegh Tabassi' }],
+  creator: 'Sadegh Tabassi',
   metadataBase: new URL('https://sadeghtb.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://sadeghtb.com',
-    siteName: "Sadegh Tabassi",
-    title: "Sadegh Tabassi",
+    siteName: 'Sadegh Tabassi',
+    title: 'Sadegh Tabassi',
     description: 'Data scientist, machine learning engineer, and full-stack developer.',
     images: [
       {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Sadegh Tabassi",
+        alt: 'Sadegh Tabassi',
       },
     ],
   },
