@@ -20,7 +20,7 @@ const SideBar: React.FC = () => {
         <header>
           <h2>Michael D&apos;Angelo</h2>
           <p>
-            <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+            <a href="mailto:sadegh@sadeghtb.com">sadegh@sadeghtb.com</a>
           </p>
         </header>
       </section>
@@ -53,7 +53,7 @@ const SideBar: React.FC = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">
-          &copy; Michael D&apos;Angelo <Link href="/">mldangelo.com</Link>.
+          &copy; Michael D&apos;Angelo <Link href="/">sadeghtb.com</Link>.
         </p>
       </section>
     </section>

@@ -38,11 +38,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Michael D'Angelo" }],
   creator: "Michael D'Angelo",
-  metadataBase: new URL('https://mldangelo.com'),
+  metadataBase: new URL('https://sadeghtb.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mldangelo.com',
+    url: 'https://sadeghtb.com',
     siteName: "Michael D'Angelo",
     title: "Michael D'Angelo",
     description: 'Data scientist, machine learning engineer, and full-stack developer.',
