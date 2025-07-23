@@ -15,7 +15,7 @@ import work from '@/data/resume/work';
 export const metadata: Metadata = {
   title: 'Resume',
   description:
-    "Sadegh Tabassi's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook.",
+    "Sadegh Tabassi's Resume.",
 };
 
 const sections = [
@@ -42,7 +42,7 @@ export default function ResumePage() {
         </div>
       </header>
 
-      <section id="education" className="education">
+      {/* <section id="education" className="education">
         <div className="link-to" />
         <Education data={degrees} />
       </section>
@@ -65,7 +65,7 @@ export default function ResumePage() {
       <section id="references" className="references">
         <div className="link-to" />
         <References />
-      </section>
+      </section> */}
     </article>
   );
 }
