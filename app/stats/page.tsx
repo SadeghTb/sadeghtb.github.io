@@ -9,7 +9,7 @@ import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Stats',
-  description: "Some statistics about Sadegh Tabassi",
+  description: 'Some statistics about Sadegh Tabassi',
 };
 
 export default function StatsPage() {

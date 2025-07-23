@@ -10,7 +10,7 @@ import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: "Learn about Sadegh Tabassi's projects.",
+  description: 'Learn about Sadegh Tabassi\'s projects.',
 };
 
 export default function ProjectsPage() {

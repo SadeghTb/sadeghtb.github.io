@@ -28,7 +28,7 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I&apos;m Sadegh. 
+Hi,·I&apos;m·Sadegh.
         </p>
         <ul className="actions">
           <li>
