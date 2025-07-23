@@ -6,8 +6,7 @@ import Link from 'next/link';
 import PageWrapper from './components/PageWrapper';
 
 export const metadata: Metadata = {
-  description:
-    'Sadegh Tabassi is a.',
+  description:'Sadegh Tabassi is a.',
 };
 
 export default function HomePage() {
