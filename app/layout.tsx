@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: '%s | Sadegh Tabassi',
   },
   description:
-    'Sadegh Tabassi\'s personal website. Data scientist, machine learning engineer, and full-stack developer.',
+    "Sadegh·Tabassi's personal website. Data·scientist, machine learning engineer, and full-stack developer.",
   keywords: [
     'Sadegh Tabassi',
     'data scientist',

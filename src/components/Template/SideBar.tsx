@@ -27,9 +27,7 @@ const SideBar: React.FC = () => {
 
       <section className="blurb">
         <h2>About</h2>
-        <p>
-Hi,·I&apos;m·Sadegh.
-        </p>
+        <p>Hi, I&apos; Sadegh.</p>
         <ul className="actions">
           <li>
             {pathname && !pathname.includes('/resume') ? (

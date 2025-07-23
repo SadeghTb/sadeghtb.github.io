@@ -7,7 +7,7 @@ import PageWrapper from './components/PageWrapper';
 
 export const metadata: Metadata = {
   description:
-    "Sadegh Tabassi is a data scientist, machine learning engineer, and full-stack engineer.",
+    'Sadegh Tabassi is a data scientist, machine learning engineer, and full-stack engineer.',
 };
 
 export default function HomePage() {
@@ -31,10 +31,6 @@ export default function HomePage() {
           or you can check out my <Link href="/resume">resume</Link>,{' '}
           <Link href="/projects">projects</Link>, view <Link href="/stats">site statistics</Link>,
           or <Link href="/contact">contact</Link> me.
-        </p>
-        <p>
-          {' '}
-          Source available <a href="https://github.com/mldangelo/personal-site">here</a>.
         </p>
       </article>
     </PageWrapper>
