@@ -18,10 +18,10 @@ const routes: Route[] = [
     label: 'Resume',
     path: '/resume',
   },
-  // {
-  //   label: 'Projects',
-  //   path: '/projects',
-  // },
+  {
+    label: 'Visited Countries',
+    path: '/visited_countries',
+  },
   {
     label: 'Stats',
     path: '/stats',
