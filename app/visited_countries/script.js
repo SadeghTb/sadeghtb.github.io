@@ -20,18 +20,14 @@
         displayCountryName(this.id);
       });
 
-      const flattenedCountries = countries.flatMap((country) =>
-        country.split(' ')
-      );
+      const flattenedCountries = countries.flatMap((country) =>country.split(' '));
       flattenedCountries.forEach(function (country) {
         d3.select('#' + country).style('fill', '#c0442c');
         d3.select('#' + country + ' path').style('fill', '#c0442c');
       });
 
       d3.select('#number-countries').text(countries.length);
-      d3.select('#globe-percent').text(
-        Math.round((100 * countries.length) / 193) + '%'
-      );
+      d3.select('#globe-percent').text(Math.round((100 * countries.length) / 193) + '%');
     });
 })();
 
