@@ -40,4 +40,4 @@ yarn.lock
 # markdown
 *.md
 
-/app/visited_countries
+/visited_countries/*
