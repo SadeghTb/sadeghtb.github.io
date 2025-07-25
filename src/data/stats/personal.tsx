@@ -34,7 +34,7 @@ const data: StatData[] = [
     key: 'countries',
     label: 'Countries visited',
     value: 7,
-    link: '',
+    link: 'https://sadeghtb.github.io/visited_countries',
   },
   {
     key: 'location',
