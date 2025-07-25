@@ -77,6 +77,9 @@ jobs:
             exit 1
           fi
           echo "Build successful. Generated $(find out -type f | wc -l) files."
+          echo "HERE"
+          ls visited_countries
+          cp visited_countries/visited_countries.html out
           ls out
           du -sh out/
           
