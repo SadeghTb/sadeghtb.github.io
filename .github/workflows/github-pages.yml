@@ -32,11 +32,6 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for proper git info
       
-      - name: Start HTTP server
-        run: |
-          cd visited_countries
-          python3 -m http.server 8000 &
-          
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -79,7 +74,7 @@ jobs:
           echo "Build successful. Generated $(find out -type f | wc -l) files."
           echo "HERE"
           ls visited_countries
-          cp visited_countries/visited_countries.html out
+          cp visited_countries/* out
           ls out
           du -sh out/
           
