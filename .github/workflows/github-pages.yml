@@ -77,6 +77,7 @@ jobs:
             exit 1
           fi
           echo "Build successful. Generated $(find out -type f | wc -l) files."
+          ls out
           du -sh out/
           
       - name: Ensure .nojekyll exists in output
