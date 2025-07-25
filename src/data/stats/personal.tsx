@@ -33,7 +33,7 @@ const data: StatData[] = [
   {
     key: 'countries',
     label: 'Countries visited',
-    value: 7,
+    value: (<a href="https://sadeghtb.github.io/visited_countries" target="_blank" rel="noopener noreferrer"> 7 </a>),
     link: 'https://sadeghtb.github.io/visited_countries',
   },
   {
