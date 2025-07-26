@@ -19,10 +19,6 @@ const routes: Route[] = [
     path: '/resume',
   },
   {
-    label: 'Visited Countries',
-    path: '/visited_countries',
-  },
-  {
     label: 'Stats',
     path: '/stats',
   },
