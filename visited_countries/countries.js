@@ -1,1 +1,1 @@
-countries = ['Iran','netherlands','spain','germany','turkey','emirates','saudi'];
+countries = ['iran','netherlands','spain','germany','turkey','emirates','saudi'];
